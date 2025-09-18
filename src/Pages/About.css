@@ -1,0 +1,66 @@
+.about{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about .about-img{
+    width: 80%;
+    height: 200px;
+    background-image: url("../assets/homebg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.about .about-img img{
+    width: 100%;
+}
+
+.about .about-head{
+    height: fit-content;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.about .about-head h4{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    border-bottom: 3px solid orangered;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    width: fit-content;
+    color: rgb(41, 3, 41);
+}
+.about .about-content{
+    width: 95%;
+    margin-top: -10px;
+}
+.about .about-content h5{
+    letter-spacing: 0.5px;
+    text-align: justify;
+    line-height: 20px;
+    color: black;
+}
+.about .contact-btn{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+.about .contact-btn h4{
+    padding: 5px 10px;
+    margin: 0;
+    background-color: orangered;
+    color: whitesmoke;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
