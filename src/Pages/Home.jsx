@@ -1,4 +1,4 @@
-import img1 from "../assets/1 (1).jpg"
+import img1 from "../assets/2 (1).jpg"
 import "./home.css"
 const Home = () => {
     return (

@@ -11,13 +11,14 @@ const Contact = () => {
             <div className="contact">
                 <div className="contact-main">
                     <h3>Get in touch</h3>
+                    <h6>Lorem ipsum dolor sit, <br /> amet consectetur adipisicing elit.
+                         Officiis, quas.</h6>
                     <div className="top">
                         <div className="left">
                             <div className="logo">
                                 <img src={phone} alt="" />
                             </div>
                             <div>
-                                <h5>Call us</h5>
                                 <h6>9787208604</h6>
                                 <h6>8838845171</h6>
                                 <h6></h6>
@@ -28,7 +29,6 @@ const Contact = () => {
                                 <img src={location} alt="" />
                             </div>
                             <div>
-                                <h5>Location</h5>
                                 <h6>Surabi complex, Dr.mohan clinic </h6>
                                 <h6>New bus stand Thanjavur 613005</h6>
                             </div>
@@ -39,8 +39,7 @@ const Contact = () => {
                             <div className="logo">
                                 <img src={mail} alt="" /></div>
                             <div>
-                                <h5>Email</h5>
-                            <h6>3/218 street</h6>
+                            <h6>mrvasanth93@gmail.com</h6>
                             </div>
                         </div>
                         <div className="right">
@@ -53,7 +52,7 @@ const Contact = () => {
                         <div className="icon"><img src={facbook} alt="" /></div>
                         <div className="icon"><img src={instgram} alt="" /></div>
                     </div>
-                    <h4>SRK tech</h4>
+                    <h4>SRK Electrical & Electronics services</h4>
                 </div>
             </div>
         </>

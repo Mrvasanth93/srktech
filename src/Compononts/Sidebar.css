@@ -1,0 +1,53 @@
+.sidebar{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-top: 10px;
+    backdrop-filter: blur(2px);
+}
+.sidebar .sidebar-container{
+    background-color: white;
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+.sidebar .sidebar-container .header{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sidebar .sidebar-container .header .logo{
+    width: 40px;
+    height: 40px;
+}
+.sidebar .sidebar-container .header .logo img{
+    width: 100%;
+}
+.sidebar .sidebar-container .header .close h5{
+    color: rgb(85, 82, 82);
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+    font-weight: 500;
+}
+.sidebar .sidebar-container .middle{
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.sidebar .sidebar-container .middle h4{
+    font-size: 13px;
+}
