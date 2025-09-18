@@ -25,7 +25,7 @@ const data = [
 const Services = () => {
     return (
         <>
-            <div className="services">
+            <div id="services" className="services">
                 <h4 className="service-tittle">Services</h4>
                 <div className="services">
                     {

@@ -4,8 +4,13 @@ import SideBar from "./Sidebar"
 import { useEffect, useState } from "react"
 const Nav = () => {
     const [showSideBar,setShowSideBar] = useState(false)
+    const openSideBar = () =>{
+        setShowSideBar(!showSideBar)
+       
+    }
     useEffect(()=>{
-    },[setShowSideBar])
+    
+    },[])
     return (
         <>
             {
@@ -17,26 +22,13 @@ const Nav = () => {
                         <h5>SRKTECH.</h5>
                     </div>
                     <div className="right">
-                        <h5>Home</h5>
-                        <h5>about</h5>
-                        <h5>services</h5>
-                        <h5>contact</h5>
+                        <h5><a href="#home">Home</a></h5>
+                        <h5><a href="#about">About</a></h5>
+                        <h5><a href="#services">Services</a></h5>
+                        <h5><a href="#gallery">Gallery</a></h5>
+                        <h5><a href="#contact">Contact</a></h5>
                     </div>
-                    <div onClick={()=>{
-                        console.log("before :" +showSideBar);
-                        if(showSideBar == true){
-                            setShowSideBar(false)
-                            console.log("in between" + showSideBar);
-                            setShowSideBar(!showSideBar)
-                        }
-                        else{
-                            setShowSideBar(!showSideBar)
-                            setShowSideBar(!showSideBar)
-                        }
-
-                        console.log("after :" +showSideBar);
-                        
-                    }} className="menu-logo">
+                    <div onClick={()=>{openSideBar()}} className="menu-logo">
                         <img src={menulogo} alt="" />
                     </div>
                 </div>

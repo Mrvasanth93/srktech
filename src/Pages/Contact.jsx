@@ -8,7 +8,7 @@ import facbook from "../assets/facebook.png"
 const Contact = () => {
     return (
         <>
-            <div className="contact">
+            <div id="contact" className="contact">
                 <div className="contact-main">
                     <h3>Get in touch</h3>
                     <h6>Lorem ipsum dolor sit, <br /> amet consectetur adipisicing elit.
@@ -19,8 +19,8 @@ const Contact = () => {
                                 <img src={phone} alt="" />
                             </div>
                             <div>
-                                <h6>9787208604</h6>
-                                <h6>8838845171</h6>
+                                <h6>97872 08604</h6>
+                                <h6>88388 45171</h6>
                                 <h6></h6>
                             </div>
                         </div>

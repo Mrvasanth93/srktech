@@ -2,7 +2,7 @@ import "./About.css"
 const About = () => {
     return (
         <>
-            <div className="about">
+            <div id="about" className="about">
                 <div className="about-img"></div>
                 <div className="about-details">
                     <div className="about-head">

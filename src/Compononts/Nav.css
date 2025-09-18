@@ -27,6 +27,10 @@
     padding: 0;
     padding-left: 15px;
 }
+.nav .nav-container .right h5 a{
+    text-decoration: none;
+    color: black;
+}
 .nav .nav-container .right h5:hover{
     color: rgb(238, 57, 1);
 }

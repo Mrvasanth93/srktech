@@ -2,13 +2,13 @@ import "./Sidebar.css"
 import logo from "../assets/Picsart_25-09-17_10-28-31-284.png"
 import { useEffect, useState } from "react"
 const SideBar = (probs) => {
-    const [isShow,setShow] = useState(probs.isShow)
-    const show = () =>{
+    const [isShow, setShow] = useState(probs.isShow)
+    const show = () => {
         setShow(!isShow)
     }
-    useEffect(()=>{
+    useEffect(() => {
         setShow(probs.isShow)
-    },[setShow])
+    }, [setShow])
     return (
         <>
             {
@@ -23,10 +23,11 @@ const SideBar = (probs) => {
                             </div>
                         </div>
                         <div className="middle">
-                            <h4>Home</h4>
-                            <h4>About</h4>
-                            <h4>Services</h4>
-                            <h4>Contact Us</h4>
+                            <h4 onClick={show}><a href="#home">Home</a></h4>
+                            <h4 onClick={show}><a href="#about">About</a></h4>
+                            <h4 onClick={show}><a href="#services">Services</a></h4>
+                            <h4 onClick={show}><a href="#gallery">Gallery</a></h4>
+                            <h4 onClick={show}><a href="#contact">Contact</a></h4>
                         </div>
                     </div>
                 </div>

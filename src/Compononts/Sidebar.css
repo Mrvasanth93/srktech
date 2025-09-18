@@ -49,5 +49,9 @@
     gap: 20px;
 }
 .sidebar .sidebar-container .middle h4{
-    font-size: 13px;
+    font-size: 15px;
+}
+.sidebar .sidebar-container .middle h4 a{
+    color: black;
+    text-decoration: none;
 }

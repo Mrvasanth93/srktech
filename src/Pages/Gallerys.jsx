@@ -27,7 +27,7 @@ const Gallery = () =>{
     }
     return(
         <>
-            <div className="tittle">
+            <div id="gallery" className="tittle">
                 <h4>Our Projects</h4>
             </div>
             <div className="gallery">
