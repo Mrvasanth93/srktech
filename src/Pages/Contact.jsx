@@ -18,7 +18,9 @@ const Contact = () => {
                             </div>
                             <div>
                                 <h5>Call us</h5>
-                                <h6>+91-9345488130</h6>
+                                <h6>9787208604</h6>
+                                <h6>8838845171</h6>
+                                <h6></h6>
                             </div>
                         </div>
                         <div className="right">
@@ -26,8 +28,9 @@ const Contact = () => {
                                 <img src={location} alt="" />
                             </div>
                             <div>
-                                <h5>Our Location</h5>
-                                <h6>3/218 street</h6>
+                                <h5>Location</h5>
+                                <h6>Surabi complex, Dr.mohan clinic </h6>
+                                <h6>New bus stand Thanjavur 613005</h6>
                             </div>
                         </div>
                     </div>

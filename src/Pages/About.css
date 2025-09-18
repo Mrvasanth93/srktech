@@ -2,19 +2,26 @@
     margin-top: 30px;
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: center;
     flex-direction: column;
 }
 .about .about-img{
-    width: 80%;
-    height: 200px;
+    width: 70%;
+    height: 200PX;
     background-image: url("../assets/homebg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-top-left-radius: 50%;
     border-bottom-right-radius: 50%;
+}
+.about .about-details{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    width: 90%;
 }
 
 .about .about-img img{
@@ -57,10 +64,87 @@
     margin-top: 10px;
 }
 .about .contact-btn h4{
+    width: 120px;
+    height: 30px;
     padding: 5px 10px;
+    padding-top: 10px;
     margin: 0;
     background-color: orangered;
     color: whitesmoke;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
+    text-align: center;
+}
+@media (min-width:375px) {
+    .about .about-img{
+        height: 240px;
+    }
+}
+@media (min-width:425px) {
+    .about .about-img{
+        height: 280px;
+    }
+}
+@media (min-width:520px) {
+    .about .about-img{
+        height: 330px;
+    }
+}
+@media (min-width:600px) {
+    .about{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .about .about-img{
+        width: 40%;
+        height: 220px;
+    }
+    .about .about-details{
+        width: 50%;
+    }
+    .about .contact-btn h4{
+        width: 100px;
+        height: 20px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width:720px) {
+    .about{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .about .about-img{
+        width: 35%;
+        height: 250px;
+    }
+    .about .about-details{
+        width: 50%;
+    }
+    .about .contact-btn h4{
+        width: 100px;
+        height: 20px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width:900px) {
+    .about .about-img{
+        width: 40%;
+        height: 340px;
+    }
+}
+@media (min-width:1024px) {
+    .about .about-img{
+        width: 30%;
+        height: 300px;
+    }
+}
+@media (min-width:1250px) {
+    .about .about-img{
+        width: 30%;
+        height: 350px;
+    }
 }

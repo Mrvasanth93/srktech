@@ -1,19 +1,11 @@
-h4{
+.service-tittle{
     text-align: center;
-    color: rgb(41, 3, 41);
-}
-.hrline{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -10px;
-}
-.hrline div{
-    border: 2px solid orangered;
-    width: 90px;
+    color: white;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid orangered;
 }
 .services{
-    margin-top: 30px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -21,6 +13,7 @@ h4{
     background-color: rgb(8, 2, 31);
     color: white;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 .services .service{
     background-color: rgba(4, 37, 65, 0.493);
@@ -84,17 +77,17 @@ h4{
     color: deeppink;
 }
 .service .pin-img{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     position: relative;
-    top: -60px;
+    top: -70px;
     right: 35px;
     margin-bottom: -30px;
 }
 .service .service-count{
     position: relative;
-    top: -85px;
-    left: -8px;
+    top: -76px;
+    left: -14px;
     font-size: 14px;
 }
 .service .pin-img img{
@@ -104,5 +97,37 @@ h4{
     .services .service{
         width: 40%;
         margin-bottom: 20px;
+    }
+}
+@media (min-width:1024px) {
+    .service .pin-img{
+        top: -70px;
+    }
+    .service .service-count{
+        top: -90px;
+    }
+}
+@media (min-width:375px) {
+    .service .pin-img{
+        top: -80px;
+    }
+    .service .service-count{
+        top: -86px;
+    }
+}
+@media (min-width:467px) {
+    .service .pin-img{
+        top: -90px;
+    }
+    .service .service-count{
+        top: -96px;
+    }
+}
+@media (max-width:784px) {
+    .service .pin-img{
+        top: -75px;
+    }
+    .service .service-count{
+        top: -80px;
     }
 }

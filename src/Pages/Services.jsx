@@ -25,11 +25,8 @@ const data = [
 const Services = () => {
     return (
         <>
-            <h4>What we do</h4>
-            <div className="hrline">
-                <div></div>
-            </div>
             <div className="services">
+                <h4 className="service-tittle">Services</h4>
                 <div className="services">
                     {
                         data.map((data, index) => {

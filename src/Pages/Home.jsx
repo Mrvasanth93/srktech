@@ -8,12 +8,9 @@ const Home = () => {
                     <img src={img1} alt="" />
                 </div>
                 <div className="content">
-                    <h3>We install, repair, maintain - dependable electrical care for every
+                    <h3>We <span>install, repair, maintain</span> - dependable electrical care for every
                         household.
                     </h3>
-                    <h5>Reliable home and commercial electrical, electronics, and
-                        plumbing services. From wiring, appliance repair, CCTV installation to
-                        solar panel setup, SRK Tech ensures quality at affordable costs.</h5>
                     <h4>Contact us</h4>
                 </div>
             </div>

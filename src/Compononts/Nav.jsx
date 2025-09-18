@@ -4,7 +4,7 @@ const Nav = () => {
     return (
         <>
             <div className="nav">
-                <div className="bottom">
+                <div className="nav-container">
                     <div className="left">
                         <h5>Power</h5>
                     </div>
@@ -14,9 +14,9 @@ const Nav = () => {
                         <h5>services</h5>
                         <h5>contact</h5>
                     </div>
-                </div>
-                <div className="menu-logo">
-                    <img src={menulogo} alt="" />
+                    <div className="menu-logo">
+                        <img src={menulogo} alt="" />
+                    </div>
                 </div>
             </div>
         </>
