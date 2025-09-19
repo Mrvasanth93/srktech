@@ -5,8 +5,7 @@ import { useEffect, useState } from "react"
 const Nav = () => {
     const [showSideBar,setShowSideBar] = useState(false)
     const openSideBar = () =>{
-        setShowSideBar(!showSideBar)
-       
+       setShowSideBar((prev) => !prev);
     }
     useEffect(()=>{
     
@@ -19,7 +18,7 @@ const Nav = () => {
             <div className="nav">
                 <div className="nav-container">
                     <div className="left">
-                        <h5>SRKTECH.</h5>
+                        <h5>SRKTECHGROUP.</h5>
                     </div>
                     <div className="right">
                         <h5><a href="#home">Home</a></h5>
