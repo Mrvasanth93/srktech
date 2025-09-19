@@ -3,6 +3,7 @@
     margin-top: 20px;
     width: 100%;
     padding: 0;
+    overflow-y: hidden;
 }
 .contact .contact-main{
     padding: 5px;
