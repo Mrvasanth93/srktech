@@ -52,7 +52,7 @@ const Contact = () => {
                     <div className="social-media">
                         <div className="icon"><a href=""><img src={whatsapp} alt="" /></a></div>
                         <div className="icon"><a href=""><img src={facbook} alt="" /></a></div>
-                        <div className="icon"><a target="_blank" rel="noopener noreferrer" href="https://wa.me/88388 45171"><img src={instgram} alt="" /></a></div>
+                        <div className="icon"><a target="_blank" rel="noopener noreferrer" href="https://wa.me/8838845171"><img src={instgram} alt="" /></a></div>
                     </div>
                     <h4>SRK TECH GROUP</h4>
                 </div>
