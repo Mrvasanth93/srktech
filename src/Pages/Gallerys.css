@@ -1,23 +1,26 @@
-.gallery{
+.gallery {
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 99%;
-    min-height: 200px;
+    min-height: 300px;
 }
-.tittle{
+
+.tittle {
     margin-top: 20px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.tittle h4{
+
+.tittle h4 {
     border-bottom: 3px solid orangered;
     padding-bottom: 5px;
 }
-.gallery .image{
+
+.gallery .image {
     width: 75%;
     display: flex;
     align-items: center;
@@ -25,16 +28,31 @@
     padding: 5px;
     border-radius: 10px;
     box-shadow: 1px 1px 5px rgba(122, 122, 122, 0.733);
+    transition: transform 0.5s ease;
+    animation: slideRight 0.5s forwards;
 }
-.gallery .image img{
+
+.gallery .image img {
     width: 100%;
     border-radius: 10px;
 }
-.gallery .btns{
+
+@keyframes slideRight{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translatex(0%);
+    }
+}
+
+.gallery .btns {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
-.gallery .btns div{
+
+.gallery .btns div {
     width: 50px;
     border: 1px solid rgb(134, 134, 134);
     font-weight: 500;
@@ -42,30 +60,53 @@
     margin: 10px;
     margin-top: 25px;
     border-radius: 5px;
+    cursor: pointer;
 }
-.gallery .left{
+.gallery .left {
     width: 20px;
     height: 20px;
     text-align: center;
     border-radius: 50%;
-    padding-bottom: 3px;
     background-color: rgb(255, 8, 0);
     color: white;
     box-shadow: 1px 1px 2px rgba(117, 117, 117, 0.486);
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.gallery .right{
+
+.gallery .right {
     width: 20px;
     height: 20px;
     text-align: center;
     border-radius: 50%;
-    padding-bottom: 3px;
     background-color: rgb(255, 8, 0);
     color: white;
     box-shadow: 1px 1px 2px rgba(117, 117, 117, 0.486);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 @media (min-width:700px) {
-    .gallery .image{
+    .gallery .image {
         width: 500px;
+    }
+
+    .gallery {
+        min-height: 400px;
+    }
+
+    .gallery .left {
+        width: 30px;
+        height: 30px;
+        padding-bottom: -10px;
+    }
+
+    .gallery .right {
+        width: 30px;
+        height: 30px;
     }
 }

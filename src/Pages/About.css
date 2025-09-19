@@ -75,6 +75,10 @@
     border-bottom-left-radius: 15px;
     text-align: center;
 }
+.about a{
+    color: white;
+    text-decoration: none;
+}
 @media (min-width:375px) {
     .about .about-img{
         height: 240px;

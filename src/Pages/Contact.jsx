@@ -11,16 +11,15 @@ const Contact = () => {
             <div id="contact" className="contact">
                 <div className="contact-main">
                     <h3>Get in touch</h3>
-                    <h6>Lorem ipsum dolor sit, <br /> amet consectetur adipisicing elit.
-                         Officiis, quas.</h6>
+                    <h6>Reach out today for fast, reliable, and expert service.</h6>
                     <div className="top">
                         <div className="left">
                             <div className="logo">
                                 <img src={phone} alt="" />
                             </div>
                             <div>
-                                <h6>97872 08604</h6>
-                                <h6>88388 45171</h6>
+                                <h6><a href="tel:+9197872 08604">97872 08604</a></h6>
+                                <h6><a href="tel:+9188388 45171">88388 45171</a></h6>
                                 <h6></h6>
                             </div>
                         </div>
@@ -39,7 +38,7 @@ const Contact = () => {
                             <div className="logo">
                                 <img src={mail} alt="" /></div>
                             <div>
-                            <h6>mrvasanth93@gmail.com</h6>
+                            <h6><a href="mailto:srktechgroup@gmail.com?subject=Service%20Enquiry&body=Hello%20SRK%20Tech%20Group">srktechgroup@gmail.com</a></h6>
                             </div>
                         </div>
                         <div className="right">
@@ -48,11 +47,11 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="social-media">
-                        <div className="icon"><img src={whatsapp} alt="" /></div>
-                        <div className="icon"><img src={facbook} alt="" /></div>
-                        <div className="icon"><img src={instgram} alt="" /></div>
+                        <div className="icon"><a href=""><img src={whatsapp} alt="" /></a></div>
+                        <div className="icon"><a href=""><img src={facbook} alt="" /></a></div>
+                        <div className="icon"><a href="https://wa.me/97872 08604?text=Hi%20want%20to%20know%20more"><img src={instgram} alt="" /></a></div>
                     </div>
-                    <h4>SRK Electrical & Electronics services</h4>
+                    <h4>SRK TECH GROUP</h4>
                 </div>
             </div>
         </>

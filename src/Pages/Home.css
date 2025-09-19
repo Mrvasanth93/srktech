@@ -52,12 +52,16 @@
     padding-right: 7px;
     padding-top:5px;
     padding-bottom: 5px;
-    width: 75px;
-    height: 15px;
+    width: 85px;
+    height:20px;
     text-align: center;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     color: white;
+}
+.home a{
+    color: white;
+    text-decoration: none;
 }
 @media (min-width:425px) {
     .home .content h3{

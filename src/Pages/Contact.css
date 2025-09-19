@@ -27,7 +27,10 @@
     margin: 0;
     padding-top: 20px;
 }
-
+.contact a{
+    color: white;
+    text-decoration: none;
+}
 .contact .contact-main .top{
     display: flex;
     align-items: start;
