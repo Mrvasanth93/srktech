@@ -11,6 +11,17 @@
     justify-content: space-between;
     height: 60px;
 }
+.nav .nav-container .left{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    margin-left: -23px;
+}
+.nav .nav-container .left img{
+    width: 90%;
+}
 .nav .nav-container .left h5{
     color: black;
     margin: 0;

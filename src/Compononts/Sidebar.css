@@ -26,8 +26,12 @@
     justify-content: space-between;
 }
 .sidebar .sidebar-container .header .logo{
-    width: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 40px;
+    margin-left: -15px;
 }
 .sidebar .sidebar-container .header .logo img{
     width: 100%;

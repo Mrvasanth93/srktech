@@ -15,6 +15,7 @@
     background-size: cover;
     border-top-left-radius: 50%;
     border-bottom-right-radius: 50%;
+    
 }
 .about .about-details{
     display: flex;
@@ -74,6 +75,7 @@
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     text-align: center;
+
 }
 .about a{
     color: white;

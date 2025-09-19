@@ -1,5 +1,5 @@
 import "./Sidebar.css"
-import logo from "../assets/Picsart_25-09-17_10-28-31-284.png"
+import logo from "../assets/1758281366627.jpg"
 import { useEffect, useState } from "react"
 const SideBar = (probs) => {
     const [isShow, setShow] = useState(probs.isShow)

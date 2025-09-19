@@ -1,5 +1,6 @@
 import "./Nav.css"
 import menulogo from "../assets/icons8-menu-bar-48.png"
+import logo from "../assets/1758281366627.jpg"
 import SideBar from "./Sidebar"
 import { useEffect, useState } from "react"
 const Nav = () => {
@@ -18,7 +19,7 @@ const Nav = () => {
             <div className="nav">
                 <div className="nav-container">
                     <div className="left">
-                        <h5>SRKTECHGROUP.</h5>
+                        <img src={logo} alt="" />
                     </div>
                     <div className="right">
                         <h5><a href="#home">Home</a></h5>

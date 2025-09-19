@@ -1,12 +1,21 @@
 import "./Gallerys.css"
-import img1 from "../assets/1 (1).jpg"
-import img4 from "../assets/homebg.jpg"
-import img5 from "../assets/IMG-20250918-WA0010.jpg"
-import img6 from '../assets/IMG-20250918-WA0012.jpg'
-import img7 from "../assets/IMG-20250918-WA0015.jpg"
+import img1 from "../assets/gallery1.jpeg"
+import img2 from '../assets/gallery2.jpg'
+import img3 from "../assets/gallery3.jpeg"
+import img4 from "../assets/gallery4.jpg"
+import img5 from '../assets/gallery5.jpg'
+import img6 from "../assets/gallery6.jpg"
+import img7 from "../assets/gallery7.jpg"
+import img8 from '../assets/gallery8.jpg'
+import img9 from "../assets/gallery9.jpg"
+import img10 from "../assets/gallery10.jpg"
+import img11 from '../assets/gallery11.jpg'
+import img12 from "../assets/gallery12.jpg"
+import img13 from '../assets/gallery13.jpg'
+import img14 from "../assets/gallery14.jpg"
 import { useEffect, useState } from "react"
 const Gallery = () =>{
-    const [images,setImages] = useState([img1,img4,img5,img6,img7])
+    const [images,setImages] = useState([img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14])
     const [current,setCurrent] = useState(0)
     const [classname,setClassname] = useState('image')
     const handleMove = (data) =>{
