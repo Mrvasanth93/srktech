@@ -1,5 +1,5 @@
 import "./Gallerys.css"
-import img1 from "../assets/gallery1.jpeg"
+import img1 from "../assets/gallery1.jpg"
 import img2 from '../assets/gallery2.jpg'
 import img3 from "../assets/gallery3.jpeg"
 import img4 from "../assets/gallery4.jpg"
@@ -13,9 +13,14 @@ import img11 from '../assets/gallery11.jpg'
 import img12 from "../assets/gallery12.jpg"
 import img13 from '../assets/gallery13.jpg'
 import img14 from "../assets/gallery14.jpg"
+import img15 from '../assets/gallery15.jpg'
+import img16 from "../assets/gallery16.jpg"
+import img17 from '../assets/gallery17.jpg'
+import img18 from "../assets/gallery18.jpg"
+
 import { useEffect, useState } from "react"
 const Gallery = () =>{
-    const [images,setImages] = useState([img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14])
+    const [images,setImages] = useState([img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14,img15,img16,img17,img18])
     const [current,setCurrent] = useState(0)
     const [classname,setClassname] = useState('image')
     const handleMove = (data) =>{
@@ -44,7 +49,7 @@ const Gallery = () =>{
             </div>
             <div className="gallery">
                 <div onClick={()=>{handleMove("prev")}} className="left">&lt;</div>
-                <div className={classname != "" && classname}>
+                <div className="image">
                     <img src={images[current]} alt="" />
                 </div>
                 <div onClick={()=>{handleMove("next")}}className="right">&gt;</div>

@@ -1,6 +1,4 @@
 import img1 from "../assets/1 (1).jpg"
-import img2 from "../assets/IMG-20250918-WA0011.jpg"
-import img3 from "../assets/IMG-20250918-WA0014.jpg"
 import "./home.css"
 const Home = () => {
     return (

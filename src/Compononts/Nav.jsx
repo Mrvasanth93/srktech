@@ -4,17 +4,15 @@ import logo from "../assets/1758281366627.jpg"
 import SideBar from "./Sidebar"
 import { useEffect, useState } from "react"
 const Nav = () => {
-    const [showSideBar,setShowSideBar] = useState(false)
-    const openSideBar = () =>{
-       setShowSideBar((prev) => !prev);
+    const [showSideBar, setShowSideBar] = useState(false)
+    const [copyShowSideBar,copySetShowSideBar] = useState(true)
+    const handleSideBar = ()=>{
+        setShowSideBar((prev)=>!prev)
     }
-    useEffect(()=>{
-    
-    },[])
     return (
         <>
             {
-                showSideBar == true && <SideBar isShow={showSideBar}/>
+                showSideBar == true && <SideBar isShow={showSideBar} />
             }
             <div className="nav">
                 <div className="nav-container">
@@ -28,7 +26,7 @@ const Nav = () => {
                         <h5><a href="#gallery">Gallery</a></h5>
                         <h5><a href="#contact">Contact</a></h5>
                     </div>
-                    <div onClick={()=>{openSideBar()}} className="menu-logo">
+                    <div onClick={()=>{handleSideBar()}} className="menu-logo">
                         <img src={menulogo} alt="" />
                     </div>
                 </div>

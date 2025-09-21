@@ -5,9 +5,9 @@ import mail from "../assets/mail.png"
 import whatsapp from "../assets/whatsapp.png"
 import instgram from "../assets/instagram.png"
 import facbook from "../assets/facebook.png"
+import youtube from "../assets/youtube.png"
 import { useState } from "react"
 const Contact = () => {
-    const phoneNumber = "9787208604"
     const message = encodeURIComponent("Hello SRK TECH GROUP, I need a service.")
     return (
         <>
@@ -50,9 +50,10 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="social-media">
-                        <div className="icon"><a href=""><img src={whatsapp} alt="" /></a></div>
-                        <div className="icon"><a href=""><img src={facbook} alt="" /></a></div>
-                        <div className="icon"><a target="_blank" rel="noopener noreferrer" href="https://wa.me/8838845171"><img src={instgram} alt="" /></a></div>
+                        <a href={`https://wa.me/8838845171?text=${message}`}><div className="icon"><img src={whatsapp} alt="" /></div></a>
+                        <a href=""><div className="icon"><img src={facbook} alt="" /></div></a>
+                        <a href=""><div className="icon"><img src={instgram} alt="" /></div></a>
+                        <a href=""><div className="icon"><img src={youtube} alt="" /></div></a>
                     </div>
                     <h4>SRK TECH GROUP</h4>
                 </div>

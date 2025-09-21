@@ -7,7 +7,6 @@
     display: flex;
     align-items: start;
     justify-content: start;
-    margin-top: 10px;
     backdrop-filter: blur(2px);
 }
 .sidebar .sidebar-container{
@@ -17,6 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: start;
+    padding-top: 10px;
     flex-direction: column;
 }
 .sidebar .sidebar-container .header{
@@ -26,12 +26,11 @@
     justify-content: space-between;
 }
 .sidebar .sidebar-container .header .logo{
-    width: 100px;
+    width: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 40px;
-    margin-left: -15px;
 }
 .sidebar .sidebar-container .header .logo img{
     width: 100%;
@@ -45,15 +44,23 @@
 }
 .sidebar .sidebar-container .middle{
     margin-top: 20px;
-    width: 90%;
+    width: 98%;
     display: flex;
     align-items: start;
     justify-content: center;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 .sidebar .sidebar-container .middle h4{
     font-size: 15px;
+    width: 95%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.sidebar .sidebar-container .middle h4:hover{
+    border-radius: 5px;
+    background-color: aliceblue;
 }
 .sidebar .sidebar-container .middle h4 a{
     color: black;

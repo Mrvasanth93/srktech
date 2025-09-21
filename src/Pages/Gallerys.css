@@ -38,15 +38,6 @@
     border-radius: 10px;
 }
 
-@keyframes slideRight{
-    from{
-        transform: translateX(100%);
-    }
-    to{
-        transform: translatex(0%);
-    }
-}
-
 .gallery .btns {
     display: flex;
     align-items: center;
