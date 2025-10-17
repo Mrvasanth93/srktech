@@ -1,5 +1,5 @@
 import img1 from "../assets/1 (1).jpg"
-import "./home.css"
+import "./Home.css"
 const Home = () => {
     return (
         <>
